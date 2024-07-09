@@ -197,3 +197,17 @@ p{
     font-weight: 800;
     padding: 8px 20px;
 }
+
+.footer{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text{
+    margin: 25px 0px;
+    font-size: 18px;
+    color: #e5e7eb;
+    text-align: center;
+}
