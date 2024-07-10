@@ -87,12 +87,16 @@ p{
 }
 
 .image-placeholder{
-    background-color: grey;
+    background-color: rgba(218, 211, 211, 0.514);
     width: 500px;
     height: 224px;
     display: flex;
     align-items: center;
     justify-content: center;    
+}
+
+.image-placeholder > div{
+    color: #F9FAF8;
 }
 
 .mid-container{
@@ -135,7 +139,7 @@ p{
     background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -153,6 +157,7 @@ p{
     display: flex;
     justify-content: flex-end;
     margin-bottom: 100px;
+    width: 616px;
 }
 
 .cta-fold{
